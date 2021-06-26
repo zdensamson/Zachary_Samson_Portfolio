@@ -2,7 +2,7 @@
     --primary-color: #e2e2e2;
     --secondary-color: #b2b2b2;
     --tertiary-color: white;
-    --fonty-font: font: normal normal normal 24px/33px Open Sans;
+    --fonty-font-family: 'Open Sans',sans-serif;
 }
 
 * {
@@ -10,8 +10,9 @@
     margin: 0;
     padding: 0;
 }
+   
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans',sans-serif;
 }
 
 /* HEADER & NAV STYLE */
@@ -59,19 +60,49 @@ main div.flex-row{
 div h2 {
     color: var(--secondary-color);
     font-size: 80px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 100px;
 }
 
 /* PRROJECT STYLE*/
-section.projects {
+.projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    margin: 200px 140px;
 }
-div.proj {
+
+.projects > * {
+    flex: 1;
+}
+
+.small{
+    display: flex;
+    /* flex-flow: row wrap; */
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    flex: 1;
+    /* align-items: center; */
+
+}
+.small div {
     background-color: var(--primary-color);
-    width: 300px;
-    height: 250px;
+    width: 455px;
+    height: 305px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    /* border: solid red; */
+
 }
+
+
+ .big {
+    background-color: var(--primary-color);
+    width: 699px;
+    height: 619px;
+    max-width: 699px;
+    margin-right: 8px;
+} 
 
 /* 
 .flex-row{
