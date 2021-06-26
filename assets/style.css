@@ -68,42 +68,38 @@ div h2 {
 /* PRROJECT STYLE*/
 .projects {
     display: flex;
+    margin: 150px auto 0 auto;
+    justify-content: center;
     flex-wrap: wrap;
-    margin: 200px auto;
 }
 
-.projects > * {
-    /* flex: 1; */
-}
+.big {
+    background-color: var(--primary-color);
+    width: 700px;
+    height: 620px;
+    max-width: 700px;
+    margin-right: 5px;
+} 
 
 .small{
     display: flex;
-    /* flex-flow: row wrap; */
-    /* justify-content: space-around; */
     flex-wrap: wrap;
-    flex: 1;
-    max-width: 970px;
-    /* align-items: center; */
-
+    max-width: 920px;
+    flex-shrink: 2;
 }
 .small div {
     background-color: var(--primary-color);
     width: 455px;
-    height: 305px;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    /* border: solid red; */
-
+    height: 307.5px;
+    margin-right: 5px;
+    
+}
+/* applies a bottom margin to only the first two proj div's */
+.twoCHLD{
+    margin-bottom: 5px;
 }
 
 
- .big {
-    background-color: var(--primary-color);
-    width: 699px;
-    height: 619px;
-    max-width: 699px;
-    margin-right: 8px;
-} 
 
 /* 
 .flex-row{
