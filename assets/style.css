@@ -19,6 +19,10 @@ body {
 header {
     display:flex;
     justify-content: space-between;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    background-color: peru;
 }
 header h1 {
     margin: 15px 15px 15px 30px;
@@ -47,7 +51,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 50px;
     color: var(--secondary-color);
 }
 
@@ -67,42 +71,47 @@ div h2 {
 
 /* PRROJECT STYLE*/
 .projects {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 200px 140px;
+    /* display: flex; */
+    /* margin: 200px 140px; */
 }
 
-.projects > * {
+/* .projects > * {
     flex: 1;
-}
-
+} */
+.big {
+    background-color: var(--primary-color);
+    width: 905px;
+    height: 620px;
+    /* margin: 150px auto 0 auto;
+    align-items: center; */
+    margin-top: 150px;
+    margin-left: 10%;
+    margin-bottom: 5px;
+} 
 .small{
     display: flex;
     /* flex-flow: row wrap; */
     /* justify-content: space-around; */
     flex-wrap: wrap;
-    flex: 1;
+    max-width: 920px;
+    margin-left: 10%;
     /* align-items: center; */
 
 }
 .small div {
     background-color: var(--primary-color);
-    width: 455px;
+    width: 450px;
     height: 305px;
-    margin-right: 8px;
-    margin-bottom: 8px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    /* margin-right: 8px;
+    margin-bottom: 8px; */
     /* border: solid red; */
 
 }
 
 
- .big {
-    background-color: var(--primary-color);
-    width: 699px;
-    height: 619px;
-    max-width: 699px;
-    margin-right: 8px;
-} 
+
 
 /* 
 .flex-row{
