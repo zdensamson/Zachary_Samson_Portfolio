@@ -104,6 +104,14 @@ main div.flex-row{
     justify-content: center;
     flex-direction: column;
 } 
+.bigBox .projImg {
+    max-height: 60%;
+    max-width: 60%;
+    margin: 2%;
+}
+.bigBox .projImg img {
+    max-width: 100%
+}
 .column {
     height: 100%;
     flex: 1.2 1 0;
@@ -127,9 +135,6 @@ main div.flex-row{
 .column div:last-child{
     margin-bottom: 0;
 }
-.column div h3{
-    /* margin: 10%; */
-}
 .column div p {
     margin-bottom: 10%;
 }
@@ -142,14 +147,6 @@ main div.flex-row{
     max-width: 100%
 }
 
-.bigBox .projImg {
-    max-height: 60%;
-    max-width: 60%;
-    margin: 2%;
-}
-.bigBox .projImg img {
-    max-width: 100%
-}
 
 /* BIO style */
 .bio {
@@ -157,15 +154,17 @@ main div.flex-row{
 }
 .bio .zach {
     margin: 0 auto 0 auto;
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     font-size: 26px;
     color: var(--secondary-color);
+    align-items: center;
+    flex-direction: column;
     /* border: solid red; */
 }
 .bio .zach .imgHolder {
-    margin-top: 10%;
+    margin-top: 30px;
     max-width: 40%;
     max-height: 40%;
     min-width: 40%;
@@ -199,7 +198,7 @@ main div.flex-row{
 }
 .contactCopy {
     margin: 75px auto 0 auto;
-    width: 50%;
+    width: 60%;
     padding: 75px 0 75px 0;
 }
 .contactCopy h2 {
@@ -219,8 +218,12 @@ footer {
     margin-bottom: 100px;
     margin-top: 100px;
 }
-
-
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+}
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+}
 
 
 /* 
