@@ -2,6 +2,7 @@
     --primary-color: #e2e2e2;
     --secondary-color: #b2b2b2;
     --tertiary-color: white;
+    --fourth-color: #f0f0f0;
     --fonty-font-family: 'Open Sans',sans-serif;
 }
 
@@ -9,7 +10,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* font-family: 'Open Sans',sans-serif; */
+    font-family: 'Open Sans',sans-serif;
 }
    
 body {
@@ -62,12 +63,13 @@ header nav ul li a {
 /* HERO STYLE */
 main div.flex-row{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    margin-left: 10%;
 }
-div h2 {
+.flex-row h2 {
     color: var(--secondary-color);
-    font-size: 80px;
-    text-align: center;
+    font-size: 64px;
+    /* text-align: center; */
     font-weight: normal;
     margin-top: 100px;
 }
@@ -97,7 +99,7 @@ div h2 {
     flex: 2 1 0;
     min-width: 0;
     margin-right: 5px;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 } 
 .column {
@@ -122,7 +124,76 @@ div h2 {
     margin-bottom: 0;
 }
 
+/* BIO style */
+.bio {
+    margin-left: 10%;
+    margin-top: 150px;
+    margin-right: 40%;
+    margin: 150px auto 0 auto;
+}
+.bio .zach {
+    margin: 0 auto 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    color: var(--secondary-color);
+    /* border: solid red; */
+}
+.bio .zach .imgHolder {
+    margin-top: 10%;
+    max-width: 40%;
+    max-height: 40%;
+    min-width: 40%;
+    min-height: 40%;
+}
+.zach img {
+    max-width: 100%;
+    height: auto;
+}
+.bioCopy h2 {
+    font-family: var(--fonty-font-family);
+    font-size: 64px;
+    font-weight: normal;
+    color: var(--secondary-color);
+    /* margin-left: 10%; */
+}
+.bioCopy h3{
+    margin-top: 30px;
+}
+.bioCopy p {
+    margin-top: 25px;
+}
+.bioCopy {
+    margin-right: 5%;
+}
 
+
+.skills h3 {
+    font-family: var(--fonty-font-family);
+    font-size: 35px;
+    color: var(--secondary-color);
+}
+.skills p {
+    font-family: var(--fonty-font-family);
+    color: var(--secondary-color);
+    margin-top: 20px;
+    font-size: 28px;
+}
+/* .bioCopy p {
+    margin-top: 50px;
+}
+.skills p {
+    margin-top: 25px;
+} 
+.skills {
+    margin-top: 35px;
+} */
+
+
+footer {
+    margin-bottom: 100px;
+}
 
 
 /* 
