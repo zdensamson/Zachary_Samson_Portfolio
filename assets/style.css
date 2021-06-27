@@ -223,10 +223,40 @@ main div.flex-row{
     color: var(--secondary-color);
     margin-top: 25px;
 }
+.contactCopy a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: bolder;
+}
 
+.contactCopy a:hover {
+    color: black;
+}
+
+
+/* FOOTER STYLE */
 footer {
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.attribution {
+    font-style: var(--fonty-font-family);
+    color: var(--secondary-color);
+}
+.attribution a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: bolder;
+}
+.attribution a:hover {
+    color: black
+}
+footer p {
+    font: var(--fonty-font-family);
+    color: var(--secondary-color);
 }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
