@@ -259,7 +259,7 @@ footer p {
     margin-left: 5%;
 }
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
+/* MEDIA QUERies FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
     header {
         height: 90px;
@@ -285,27 +285,23 @@ footer p {
 }
 @media screen and (max-width: 710px) {
     .projects {
-        display: grid;
         margin-bottom: 900px;
     }
 }
 @media screen and (max-width: 660px) {
     .projects {
-        display: grid;
         margin-bottom: 800px;
     }
 }
 @media screen and (max-width: 600px) {
     .projects {
-        display: grid;
         margin-bottom: 850px;
     }
 }
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+/* MEDIA QUERies FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
     
     .projects {
-        display: grid;
         margin-bottom: 700px;
     }
     header {
@@ -325,5 +321,18 @@ footer p {
     }
     footer div {
         font-size: 10px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .projects {
+        margin-bottom: 400px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .projects {
+        margin-bottom: 300px;
+    }
+    header nav ul li a{
+        font-size: 20px;
     }
 }
