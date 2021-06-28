@@ -13,7 +13,7 @@ The actual portfolio site leans heavily **CSS**, and specifically **Flexbox** to
 **_CSS positioning_** was the primary bottleneck I encountered with starting this build, and it was also what I found most rewarding on the other side.
 It took a few refactors-- and many Google searches-- to appreciate first buidling out a wireframe, and planning my approach before writing any code. 
 
-I am most proud of the understanding I have built around **Flexbox**, and specifcally the usage of nested **%** declarations for adaptive sizing of HTML elements. 
+I am most proud of the understanding I have built around **Flexbox**, and specifcally the usage of nested **percentage** declarations for adaptive sizing of HTML elements. 
 I hope you enjoy this first attempt, and stick around to see what I can do next!
 
 **My portolio can be found here**: https://zdensamson.github.io/Zachary_Samson_Portfolio/
