@@ -5,14 +5,12 @@
     --fourth-color: #f0f0f0;
     --fonty-font-family: 'Open Sans',sans-serif;
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Open Sans',sans-serif;
 }
-
 body {
     font-family: 'Open Sans',sans-serif;
 }
@@ -62,7 +60,6 @@ header nav ul li a:hover {
     font-weight: bolder;
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
-
 
 /* HERO STYLE */
 main div.flex-row{
@@ -231,7 +228,6 @@ main div.flex-row{
     color: var(--secondary-color);
     font-weight: bolder;
 }
-
 .contactCopy a:hover {
     color: black;
 }
@@ -262,15 +258,72 @@ footer p {
     color: var(--secondary-color);
     margin-left: 5%;
 }
+
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+    header {
+        height: 90px;
+    }
+    .projects {
+        display: grid;
+        margin-bottom: 1100px;
+    }
+    .bigBox {
+        margin-bottom: 10px;
+    } 
+    .column a:last-child{
+        margin-bottom: 5px;
+    }
+    .column div:last-child{
+        margin-bottom: 5px;
+    }
+    .zach .imgHolder {
+        margin-top: 30px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+@media screen and (max-width: 710px) {
+    .projects {
+        display: grid;
+        margin-bottom: 900px;
+    }
+}
+@media screen and (max-width: 660px) {
+    .projects {
+        display: grid;
+        margin-bottom: 800px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .projects {
+        display: grid;
+        margin-bottom: 850px;
+    }
 }
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+    
+    .projects {
+        display: grid;
+        margin-bottom: 700px;
+    }
+    header {
+        height: 125px;
+    }
+    .bioCopy p {
+        font-size: 18px;
+    }
+    .contactCopy p {
+        font-size: 18px;
+    }
+    footer a {
+        font-size: 10px;
+    }
+    footer p {
+        font-size: 15px;
+    }
+    footer div {
+        font-size: 10px;
+    }
 }
-
-
-/* 
-.flex-row{
-    display: flex;
-} */
